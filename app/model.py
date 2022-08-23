@@ -3,7 +3,7 @@ import pickle
 import gzip
 
 # 載入Model
-with gzip.open('app/model/glm_model.pgz', 'r') as f:
+with gzip.open('app/model/glm_model2.pgz', 'r') as f:
     logiModel = pickle.load(f)
 
 
